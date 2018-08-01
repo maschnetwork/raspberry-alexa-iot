@@ -1,14 +1,13 @@
 
-# Coding 4 Kids: IoT Connect Everything powered by Catalysts
-
-Das Projekt besteht aus verschiedenen Raspberrys Pi's welche über eine  (REST-) Schnittstelle
-einen vordefinierten Status im Internet veröffentlichen bzw. abfragen können. Um mit den Geräten
-über diese Schnittstelle zu kommunizieren beinhaltet das Projekt eine Android-Handy Applikation und einen Alexa-Skill.
+# Coding 4 Kids: IoT Connect Everything
+Das Projekt besteht aus verschiedenen Raspberrys Pi's welche Ã¼ber eine  (REST-) Schnittstelle
+einen vordefinierten Status im Internet verÃ¶ffentlichen bzw. abfragen kÃ¶nnen. Um mit den GerÃ¤ten
+Ã¼ber diese Schnittstelle zu kommunizieren beinhaltet das Projekt eine Android-Handy Applikation und einen Alexa-Skill.
 
 Das Projekt beinhaltet folgende Teile:
-  - Raspbery Pi Anleitung für die GPIO Belegung
-  - Raspbery Pi Anleitung für den Code zur Kommunikation
-  - Node.js Code für den REST-Server
+  - Raspbery Pi Anleitung fÃ¼r die GPIO Belegung
+  - Raspbery Pi Anleitung fÃ¼r den Code zur Kommunikation
+  - Node.js Code fÃ¼r den REST-Server
   - Android APP Code
   - Alexa Skill Interaktions Modell
   - AWS Lambda Funktion zur Kommunikation mit dem Alexa-Skill
@@ -17,10 +16,10 @@ Das Projekt beinhaltet folgende Teile:
 
 ### Voraussetzungen
 
-Folgende Accounts und Komponenten sind notwendig für dieses Projekt:
+Folgende Accounts und Komponenten sind notwendig fÃ¼r dieses Projekt:
   - Amazon Developer Account (https://developer.amazon.com/de/)
   - Amazon Web Service Account (https://aws.amazon.com/de/
-  - Hosting-Provider für den REST-Server (z.B. https://www.openode.io/)
+  - Hosting-Provider fÃ¼r den REST-Server (z.B. https://www.openode.io/)
   - Raspberry Pi Model 3
   - Sensoren deiner Wahl (z.B. Sense Hat) 
   - Detailierte Komponenten unter: 
@@ -33,10 +32,10 @@ Das Projekt beinhaltet folgende Programmiersprachen:
   - REST-Server und Lambda Function: JavaScript (Node.js)
 
 
-### Vorwissen und Lektüre
+### Vorwissen und LektÃ¼re
 Um sich mit dem Thema intensiver ausseinander zu setzen empfehlen wir folgende Artikel: 
     - Was ist IoT: https://aws.amazon.com/de/iot/
     
 ### Technische Abgrenzung
-In diesem Projekt wurde ein simpler Node.js REST-Server für den Austausch der Geräte zur Verfügung gestellt. Die Raspberrys veröffentlichen bzw. erfragen den Status via (Long-)Polling bzw. wiederholtes Abfragen des Zustandes via HTTP in kleinen Zeitabständen Diese Umsetzung dient lediglich zur einfachen Veranschaulichung des Sachverhaltes und sollte in Produktiv System mit passenderen Lösungen wie MQTT (https://de.wikipedia.org/wiki/MQTT) oder Websockets (https://de.wikipedia.org/wiki/WebSocket) realisiert werden. Das Senden der Statusänderungen allerdings über die Android-App oder den Alexa-Skill kann durchaus via REST-Calls auch in Produktiv-Systemen realisiert werden.
+In diesem Projekt wurde ein simpler Node.js REST-Server fÃ¼r den Austausch der GerÃ¤te zur VerfÃ¼gung gestellt. Die Raspberrys verÃ¶ffentlichen bzw. erfragen den Status via (Long-)Polling bzw. wiederholtes Abfragen des Zustandes via HTTP in kleinen ZeitabstÃ¤nden Diese Umsetzung dient lediglich zur einfachen Veranschaulichung des Sachverhaltes und sollte in Produktiv System mit passenderen LÃ¶sungen wie MQTT (https://de.wikipedia.org/wiki/MQTT) oder Websockets (https://de.wikipedia.org/wiki/WebSocket) realisiert werden. Das Senden der StatusÃ¤nderungen allerdings Ã¼ber die Android-App oder den Alexa-Skill kann durchaus via REST-Calls auch in Produktiv-Systemen realisiert werden.
 
