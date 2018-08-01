@@ -1,0 +1,94 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "catalysts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "nach einem fakt"
+                    ]
+                },
+                {
+                    "name": "SetLightColorIntent",
+                    "slots": [
+                        {
+                            "name": "farbe",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "setzte das licht auf {farbe}"
+                    ]
+                },
+                {
+                    "name": "MakeCoffeeIntent",
+                    "slots": [
+                        {
+                            "name": "employee",
+                            "type": "Employees"
+                        }
+                    ],
+                    "samples": [
+                        "mach {employee} einen kaffee",
+                        "mach mir einen kaffee bitte",
+                        "mach einen kaffee",
+                        "mach mir einen kaffee"
+                    ]
+                },
+                {
+                    "name": "GetTemperatureIntent",
+                    "slots": [],
+                    "samples": [
+                        "nach der temperatur"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Employees",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "David"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Verena"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Max"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Martin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Remo"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
