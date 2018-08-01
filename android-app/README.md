@@ -1,4 +1,4 @@
-<h1>README for controlling IoT devices using Android</h1>
+<h1>Controlling IoT devices using Android</h1>
 <h3>Coding4Kids Challenge</h3>
 
 <h3>Setup</h3>
