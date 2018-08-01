@@ -1,0 +1,28 @@
+{
+  "name": "iot-connector",
+  "version": "1.0.0",
+  "description": "IOT Connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": " Maximilian Schreiber",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mocha": "^5.1.1",
+    "openode": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "supertest": "^3.0.0"
+  }
+}
